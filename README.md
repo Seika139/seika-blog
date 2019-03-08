@@ -20,4 +20,15 @@ this blog is created as a study of DjangoGirls
   git push heroku master          # デプロイ
   ```
 
-2. 仮想環境の管理
+2. [仮想環境の管理](https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e)
+
+```
+cd [project dir]
+python3 -m venv [newenvname]      # 仮想環境を作る
+
+source [newenvname]/bin/activate  # activate
+deactivate                        # deactivate
+
+pip install [package name]        # パッケージのインストール
+pip freeze                        # 作成した環境にインストールされたパッケージの確認
+```
